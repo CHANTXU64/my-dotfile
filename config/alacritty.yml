@@ -34,66 +34,23 @@ colors:
 
   # Normal colors
   normal:
-    black:   '#073642' # base02
-    red:     '#dc322f' # red
-    green:   '#859900' # green
-    yellow:  '#b58900' # yellow
-    blue:    '#268bd2' # blue
-    magenta: '#d33682' # magenta
-    cyan:    '#2aa198' # cyan
-    white:   '#eee8d5' # base2
+    black:   '#000000' # base02
+    red:     '#af0000' # red
+    green:   '#008700' # green
+    yellow:  '#af5f00' # yellow
+    blue:    '#005faf' # blue
+    magenta: '#870087' # magenta
+    cyan:    '#008787' # cyan
+    white:   '#bfbfbf' # base2
 
   # Bright colors
   bright:
-    black:   '#002b36' # base03
-    red:     '#cb4b16' # orange
-    green:   '#586e75' # base01
-    yellow:  '#657b83' # base00
-    blue:    '#839496' # base0
-    magenta: '#6c71c4' # violet
-    cyan:    '#93a1a1' # base1
-    white:   '#fdf6e3' # base3
-
-# # Colors (Solarized Light)
-# colors:
-#   primary:
-#     background: '0xffffff'
-#     foreground: '0x000000'
-#     foreground: '0x4d4d4c'
-#   # primary:
-#   #   background: '#232627'
-#   #   foreground: '#fcfcfc'
-
-#   #   dim_foreground: '#eff0f1'
-#   #   bright_foreground: '#ffffff'
-#   #   dim_background: '#31363b'
-#   #   bright_background: '#000000'
-#   normal:
-#     black: '#232627'
-#     red: '#ed1515'
-#     green: '#11d116'
-#     yellow: '#f67400'
-#     blue: '#1d99f3'
-#     magenta: '#9b59b6'
-#     cyan: '#1abc9c'
-#     white: '#fcfcfc'
-#   # normal:
-#   #   black:   '0xf00000'
-#   #   red:     '0xc82829'
-#   #   green:   '0x718c00'
-#   #   yellow:  '0xeab700'
-#   #   blue:    '0x4271ae'
-#   #   # magenta: '0xf5871f'
-#   #   magenta: '0x3e999f'
-#   #   cyan:    '0x3e999f'
-#   #   white:   '0xf6f8fa'
-# #   bright:
-# #     black:   '0xf00000'
-# #     red:     '0xc82829'
-# #     green:   '0x718c00'
-# #     yellow:  '0xeab700'
-# #     blue:    '0x4271ae'
-# #     magenta: '0xf5871f'
-# #     cyan:    '0x3e999f'
-# #     white:   '0xffffff'
+    black:   '#4e4e4e' # base03
+    red:     '#af0000' # orange
+    green:   '#008700' # base01
+    yellow:  '#af5f00' # base00
+    blue:    '#005faf' # base0
+    magenta: '#870087' # violet
+    cyan:    '#008787' # base1
+    white:   '#cccccc' # base3
 
