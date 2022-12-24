@@ -137,23 +137,21 @@ alias vi="vim -u ~/.vim/base.vim"
 
 export FZF_DEFAULT_COMMAND="rg --files"
 
-export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
+# export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 # export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-alias pip="pip3"
+# alias pip3.9="/opt/homebrew/Cellar/python@3.9/3.9.14/bin/pip3.9"
 
 alias laz="lazygit"
 
 alias f="floaterm"
 
-alias python="python3.9"
-alias python3="python3.9"
+# alias python="python3.9"
+# alias python3="python3.9"
 
 alias bc="bc -l"
 
 alias setproxy="export https_proxy=socks5://127.0.0.1:10808 && export http_proxy=socks5://127.0.0.1:10808"
 alias unsetproxy="unset https_proxy && unset http_proxy"
-
-alias gnu-getopt="/opt/homebrew/Cellar/gnu-getopt/2.37.2/bin/getopt"
 
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 
@@ -162,4 +160,19 @@ export GOPATH="/Users/chantxu/go"
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# alias make="gmake"
+# alias tar="gtar"
+# alias find="gfind"
+# alias xargs="gxargs"
+# alias awk="gawk"
+# export PATH="/opt/homebrew/opt/gnu-getopt/bin:$PATH"
+# export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+# export PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"
+# export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+# export PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
+# export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
+# export FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"
+
+export NODE_EXTRA_CA_CERTS=/Users/chantxu/.npm.certs.pem
 
